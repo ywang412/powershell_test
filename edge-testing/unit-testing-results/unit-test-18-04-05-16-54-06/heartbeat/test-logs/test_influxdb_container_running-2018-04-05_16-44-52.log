@@ -1,0 +1,20 @@
+[2018-04-05 16:44:52,690] [    INFO] <<MainThread>>::(EnvVar.py[21].print_edgeenv                 :    <<< --- logger ENVIRONMENT VARIABLES --- >>>
+[2018-04-05 16:44:52,690] [    INFO] <<MainThread>>::(EnvVar.py[24].print_edgeenv                 :   <EV> >> LOG_BACKUP_COUNT = [10]
+[2018-04-05 16:44:52,690] [    INFO] <<MainThread>>::(EnvVar.py[24].print_edgeenv                 :   <EV> >> LOG_FILESIZE_KB = [256]
+[2018-04-05 16:44:52,691] [    INFO] <<MainThread>>::(EnvVar.py[24].print_edgeenv                 :   <EV> >> LOG_LEVEL = [DEBUG]
+[2018-04-05 16:44:52,692] [    INFO] <<MainThread>>::(EnvVar.py[25].print_edgeenv                 :    <<<  ---------EV----------  >>>
+[2018-04-05 16:44:52,692] [    INFO] <<MainThread>>::(EdgeLogger.py[80].get_edgelogger                :  ** EDGE LOGGER ** backupcnt=10, logbytesize=262144, loglevel=DEBUG
+[2018-04-05 16:44:52,692] [    INFO] <<MainThread>>::(test_unit_influx.py[50].test_influxdb_container_running:  -- UNIT TEST for test_influxdb_container_running -- 
+[2018-04-05 16:44:52,695] [    INFO] <<MainThread>>::(EnvVar.py[21].print_edgeenv                 :    <<< --- ContainerLogReadClient (Influx) Params  ENVIRONMENT VARIABLES --- >>>
+[2018-04-05 16:44:52,695] [    INFO] <<MainThread>>::(EnvVar.py[24].print_edgeenv                 :   <EV> >> INFLUX_DB_READ_HOST = [influxdb_aes]
+[2018-04-05 16:44:52,695] [    INFO] <<MainThread>>::(EnvVar.py[24].print_edgeenv                 :   <EV> >> INFLUX_DB_PORT = [8086]
+[2018-04-05 16:44:52,696] [    INFO] <<MainThread>>::(EnvVar.py[24].print_edgeenv                 :   <EV> >> INFLUX_DB_READ_HOST_POLICY = [24hours]
+[2018-04-05 16:44:52,696] [    INFO] <<MainThread>>::(EnvVar.py[25].print_edgeenv                 :    <<<  ---------EV----------  >>>
+[2018-04-05 16:44:53,112] [   DEBUG] <<MainThread>>::(influx_read.py[36].get_host                      :  Host list for debug: [{'key': 'host', 'value': 'lsiot-Win10Ent-Yu'}]
+[2018-04-05 16:44:53,113] [   DEBUG] <<MainThread>>::(influx_read.py[39].get_host                      :  Actual host = {'host': 'lsiot-Win10Ent-Yu'}
+[2018-04-05 16:44:53,115] [    INFO] <<MainThread>>::(EnvVar.py[21].print_edgeenv                 :    <<< --- Docker Client Params  ENVIRONMENT VARIABLES --- >>>
+[2018-04-05 16:44:53,115] [    INFO] <<MainThread>>::(EnvVar.py[24].print_edgeenv                 :   <EV> >> DC_BASE_URL = [tcp://172.22.240.1:2376]
+[2018-04-05 16:44:53,115] [    INFO] <<MainThread>>::(EnvVar.py[24].print_edgeenv                 :   <EV> >> DC_CERT_DIR = [C:\Users\lsiot\Desktop\adapt-git\adapt_edge\\dockerd_tls_secure\\dockerCerts]
+[2018-04-05 16:44:53,116] [    INFO] <<MainThread>>::(EnvVar.py[25].print_edgeenv                 :    <<<  ---------EV----------  >>>
+[2018-04-05 16:44:53,117] [    INFO] <<MainThread>>::(DockerUtils.py[47].get_docker_client             :  Connected to host machine docker daemon!
+[2018-04-05 16:44:53,152] [    INFO] <<MainThread>>::(test_unit_influx.py[57].test_influxdb_container_running:  Test Passed

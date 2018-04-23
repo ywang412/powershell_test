@@ -1,0 +1,45 @@
+[2018-04-05 16:47:46,460] [    INFO] <<MainThread>>::(EnvVar.py[21].print_edgeenv                 :    <<< --- logger ENVIRONMENT VARIABLES --- >>>
+[2018-04-05 16:47:46,461] [    INFO] <<MainThread>>::(EnvVar.py[24].print_edgeenv                 :   <EV> >> LOG_BACKUP_COUNT = [10]
+[2018-04-05 16:47:46,461] [    INFO] <<MainThread>>::(EnvVar.py[24].print_edgeenv                 :   <EV> >> LOG_FILESIZE_KB = [256]
+[2018-04-05 16:47:46,461] [    INFO] <<MainThread>>::(EnvVar.py[24].print_edgeenv                 :   <EV> >> LOG_LEVEL = [DEBUG]
+[2018-04-05 16:47:46,462] [    INFO] <<MainThread>>::(EnvVar.py[25].print_edgeenv                 :    <<<  ---------EV----------  >>>
+[2018-04-05 16:47:46,462] [    INFO] <<MainThread>>::(EdgeLogger.py[80].get_edgelogger                :  ** EDGE LOGGER ** backupcnt=10, logbytesize=262144, loglevel=DEBUG
+[2018-04-05 16:47:46,463] [    INFO] <<MainThread>>::(test_unit_influx.py[71].test_telegraf_streaming_to_influxdb:  -- UNIT TEST for test_telegraf_streaming_to_influxdb -- 
+[2018-04-05 16:47:46,463] [    INFO] <<MainThread>>::(EnvVar.py[21].print_edgeenv                 :    <<< --- ContainerLogReadClient (Influx) Params  ENVIRONMENT VARIABLES --- >>>
+[2018-04-05 16:47:46,463] [    INFO] <<MainThread>>::(EnvVar.py[24].print_edgeenv                 :   <EV> >> INFLUX_DB_READ_HOST = [influxdb_aes]
+[2018-04-05 16:47:46,463] [    INFO] <<MainThread>>::(EnvVar.py[24].print_edgeenv                 :   <EV> >> INFLUX_DB_PORT = [8086]
+[2018-04-05 16:47:46,464] [    INFO] <<MainThread>>::(EnvVar.py[24].print_edgeenv                 :   <EV> >> INFLUX_DB_READ_HOST_POLICY = [24hours]
+[2018-04-05 16:47:46,464] [    INFO] <<MainThread>>::(EnvVar.py[25].print_edgeenv                 :    <<<  ---------EV----------  >>>
+[2018-04-05 16:47:46,881] [   DEBUG] <<MainThread>>::(influx_read.py[36].get_host                      :  Host list for debug: [{'key': 'host', 'value': 'lsiot-Win10Ent-Yu'}]
+[2018-04-05 16:47:46,881] [   DEBUG] <<MainThread>>::(influx_read.py[39].get_host                      :  Actual host = {'host': 'lsiot-Win10Ent-Yu'}
+[2018-04-05 16:47:46,882] [    INFO] <<MainThread>>::(EnvVar.py[21].print_edgeenv                 :    <<< --- Docker Client Params  ENVIRONMENT VARIABLES --- >>>
+[2018-04-05 16:47:46,882] [    INFO] <<MainThread>>::(EnvVar.py[24].print_edgeenv                 :   <EV> >> DC_BASE_URL = [tcp://172.22.240.1:2376]
+[2018-04-05 16:47:46,882] [    INFO] <<MainThread>>::(EnvVar.py[24].print_edgeenv                 :   <EV> >> DC_CERT_DIR = [C:\Users\lsiot\Desktop\adapt-git\adapt_edge\\dockerd_tls_secure\\dockerCerts]
+[2018-04-05 16:47:46,882] [    INFO] <<MainThread>>::(EnvVar.py[25].print_edgeenv                 :    <<<  ---------EV----------  >>>
+[2018-04-05 16:47:46,883] [    INFO] <<MainThread>>::(DockerUtils.py[47].get_docker_client             :  Connected to host machine docker daemon!
+[2018-04-05 16:47:46,887] [   DEBUG] <<MainThread>>::(influx_read.py[131].read_container_cpu            :  Container name list: [{'key': 'container_name', 'value': 'influxdb_aes'}, {'key': 'container_name', 'value': 'rmq'}]
+[2018-04-05 16:47:46,950] [   DEBUG] <<MainThread>>::(influx_read.py[148].read_container_cpu            :  db query message_size = 240byte
+[2018-04-05 16:47:46,950] [   DEBUG] <<MainThread>>::(influx_read.py[149].read_container_cpu            :  influxdb_aes [{'time': '2018-04-05T17:04:00Z', 'm1': 0.12997539410876333}, {'time': '2018-04-05T17:04:10Z', 'm1': 0.10764525694203579}, {'time': '2018-04-05T17:04:20Z', 'm1': 0.097912520496039}]
+[2018-04-05 16:47:47,087] [   DEBUG] <<MainThread>>::(influx_read.py[148].read_container_cpu            :  db query message_size = 240byte
+[2018-04-05 16:47:47,087] [   DEBUG] <<MainThread>>::(influx_read.py[149].read_container_cpu            :  rmq [{'time': '2018-04-05T17:04:00Z', 'm1': 0.15467414242711314}, {'time': '2018-04-05T17:04:10Z', 'm1': 0.14696385418833371}, {'time': '2018-04-05T17:04:20Z', 'm1': 2.6388869551176652}]
+[2018-04-05 16:47:49,102] [   DEBUG] <<MainThread>>::(influx_read.py[131].read_container_cpu            :  Container name list: [{'key': 'container_name', 'value': 'influxdb_aes'}, {'key': 'container_name', 'value': 'rmq'}]
+[2018-04-05 16:47:49,168] [   DEBUG] <<MainThread>>::(influx_read.py[148].read_container_cpu            :  db query message_size = 240byte
+[2018-04-05 16:47:49,169] [   DEBUG] <<MainThread>>::(influx_read.py[149].read_container_cpu            :  influxdb_aes [{'time': '2018-04-05T17:04:00Z', 'm1': 0.12997539410876333}, {'time': '2018-04-05T17:04:10Z', 'm1': 0.10764525694203579}, {'time': '2018-04-05T17:04:20Z', 'm1': 0.097912520496039}]
+[2018-04-05 16:47:49,232] [   DEBUG] <<MainThread>>::(influx_read.py[148].read_container_cpu            :  db query message_size = 240byte
+[2018-04-05 16:47:49,233] [   DEBUG] <<MainThread>>::(influx_read.py[149].read_container_cpu            :  rmq [{'time': '2018-04-05T17:04:00Z', 'm1': 0.15467414242711314}, {'time': '2018-04-05T17:04:10Z', 'm1': 0.14696385418833371}, {'time': '2018-04-05T17:04:20Z', 'm1': 2.6388869551176652}]
+[2018-04-05 16:47:51,244] [   DEBUG] <<MainThread>>::(influx_read.py[131].read_container_cpu            :  Container name list: [{'key': 'container_name', 'value': 'influxdb_aes'}, {'key': 'container_name', 'value': 'rmq'}]
+[2018-04-05 16:47:51,303] [   DEBUG] <<MainThread>>::(influx_read.py[148].read_container_cpu            :  db query message_size = 240byte
+[2018-04-05 16:47:51,304] [   DEBUG] <<MainThread>>::(influx_read.py[149].read_container_cpu            :  influxdb_aes [{'time': '2018-04-05T17:04:00Z', 'm1': 0.12997539410876333}, {'time': '2018-04-05T17:04:10Z', 'm1': 0.10764525694203579}, {'time': '2018-04-05T17:04:20Z', 'm1': 0.097912520496039}]
+[2018-04-05 16:47:51,367] [   DEBUG] <<MainThread>>::(influx_read.py[148].read_container_cpu            :  db query message_size = 240byte
+[2018-04-05 16:47:51,367] [   DEBUG] <<MainThread>>::(influx_read.py[149].read_container_cpu            :  rmq [{'time': '2018-04-05T17:04:00Z', 'm1': 0.15467414242711314}, {'time': '2018-04-05T17:04:10Z', 'm1': 0.14696385418833371}, {'time': '2018-04-05T17:04:20Z', 'm1': 2.6388869551176652}]
+[2018-04-05 16:47:53,377] [   DEBUG] <<MainThread>>::(influx_read.py[131].read_container_cpu            :  Container name list: [{'key': 'container_name', 'value': 'influxdb_aes'}, {'key': 'container_name', 'value': 'rmq'}]
+[2018-04-05 16:47:53,438] [   DEBUG] <<MainThread>>::(influx_read.py[148].read_container_cpu            :  db query message_size = 240byte
+[2018-04-05 16:47:53,439] [   DEBUG] <<MainThread>>::(influx_read.py[149].read_container_cpu            :  influxdb_aes [{'time': '2018-04-05T17:04:00Z', 'm1': 0.12997539410876333}, {'time': '2018-04-05T17:04:10Z', 'm1': 0.10764525694203579}, {'time': '2018-04-05T17:04:20Z', 'm1': 0.097912520496039}]
+[2018-04-05 16:47:53,503] [   DEBUG] <<MainThread>>::(influx_read.py[148].read_container_cpu            :  db query message_size = 240byte
+[2018-04-05 16:47:53,503] [   DEBUG] <<MainThread>>::(influx_read.py[149].read_container_cpu            :  rmq [{'time': '2018-04-05T17:04:00Z', 'm1': 0.15467414242711314}, {'time': '2018-04-05T17:04:10Z', 'm1': 0.14696385418833371}, {'time': '2018-04-05T17:04:20Z', 'm1': 2.6388869551176652}]
+[2018-04-05 16:47:55,519] [   DEBUG] <<MainThread>>::(influx_read.py[131].read_container_cpu            :  Container name list: [{'key': 'container_name', 'value': 'influxdb_aes'}, {'key': 'container_name', 'value': 'rmq'}]
+[2018-04-05 16:47:55,579] [   DEBUG] <<MainThread>>::(influx_read.py[148].read_container_cpu            :  db query message_size = 240byte
+[2018-04-05 16:47:55,579] [   DEBUG] <<MainThread>>::(influx_read.py[149].read_container_cpu            :  influxdb_aes [{'time': '2018-04-05T17:04:00Z', 'm1': 0.12997539410876333}, {'time': '2018-04-05T17:04:10Z', 'm1': 0.10764525694203579}, {'time': '2018-04-05T17:04:20Z', 'm1': 0.097912520496039}]
+[2018-04-05 16:47:55,651] [   DEBUG] <<MainThread>>::(influx_read.py[148].read_container_cpu            :  db query message_size = 240byte
+[2018-04-05 16:47:55,651] [   DEBUG] <<MainThread>>::(influx_read.py[149].read_container_cpu            :  rmq [{'time': '2018-04-05T17:04:00Z', 'm1': 0.15467414242711314}, {'time': '2018-04-05T17:04:10Z', 'm1': 0.14696385418833371}, {'time': '2018-04-05T17:04:20Z', 'm1': 2.6388869551176652}]
+[2018-04-05 16:47:55,658] [    INFO] <<MainThread>>::(test_unit_influx.py[89].test_telegraf_streaming_to_influxdb:  Test Passed
